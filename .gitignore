@@ -1,0 +1,15 @@
+# 明文 API Key（本地文件 / 本地 Secrets），绝不能提交到仓库
+ai-playground.txt
+.env
+.streamlit/secrets.toml
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
